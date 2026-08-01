@@ -1,24 +1,34 @@
-# Aleena Ahtsham — Portfolio
+# Aleena Ahtsham — Personal Portfolio
 
-A single-file, responsive portfolio site (`index.html`) — no build step, no dependencies to install.
+A sleek, modern, single-page developer portfolio website built for **Aleena Ahtsham** — IT Student, Developer, and Automation Enthusiast. 
 
-## How to put this on GitHub
+This portfolio highlights projects, technical skills, certifications, and background with a responsive layout and smooth interactive UI elements.
 
-1. Create a new repo on GitHub, e.g. `aleenaahtsham-spec/portfolio`.
-2. Upload `index.html` to the root of the repo (drag-and-drop works, or `git add`/`commit`/`push`).
-3. Go to **Settings → Pages** in the repo.
-4. Under **Source**, choose the `main` branch and `/ (root)` folder → Save.
-5. GitHub gives you a live link like:
-   `https://aleenaahtsham-spec.github.io/portfolio/`
-6. Put that link on your resume, LinkedIn, and GitHub profile bio.
+---
 
-## What's inside
-- Sticky top nav: Home / About / Skills / Experience / Projects / Certifications / Education / Contact
-- Animated node-graph hero (canvas), tying into your automation/networking focus
-- Fully responsive down to mobile (hamburger menu, stacked grids)
-- Respects reduced-motion preference
+## ✨ Features
 
-## Things you may want to tweak
-- **Certifications**: I added placeholder titles ("Automation Certification" / "AI Course Certification", issuer Leverify Quest) since exact certificate names weren't in your resume — swap in the exact titles/dates/links if you have them.
-- **CGPA**: updated to 3.75 as you requested (resume PDF says 3.7).
-- Add real links to your projects (GitHub repo URLs) inside the project cards if you want them clickable.
+* **Single-Page Navigation:** Smooth auto-scrolling with an active navigation highlight indicator.
+* **Interactive Node Graph Visual:** Custom HTML5 Canvas animation depicting node connections (SQL, AI, n8n, Cisco, etc.) tuned for performance and reduced-motion preferences.
+* **Scroll Animations:** Lightweight, intersection-observer-driven animations for section and card reveals.
+* **Fully Responsive:** Optimized design adaptively styled for desktop, tablet, and mobile displays with a mobile navigation drawer.
+* **Dark Theme UI:** Built using custom CSS properties with accessible color contrast and modern typography (`Space Grotesk`, `Inter`, `JetBrains Mono`).
+
+---
+
+## 🛠️ Built With
+
+* **HTML5** — Semantic structure and markup
+* **CSS3** — Custom properties (CSS variables), flexbox/grid layout, media queries, and animations
+* **JavaScript (ES6+)** — Canvas rendering engine, IntersectionObserver API, and navigation toggles
+
+---
+
+## 🚀 Quick Start
+
+No build tools or external server dependencies are required.
+
+1. **Clone or Download** the repository:
+   ```bash
+   git clone [https://github.com/aleenaahtsham-spec/portfolio.git](https://github.com/aleenaahtsham-spec/portfolio.git)
+   cd portfolio
